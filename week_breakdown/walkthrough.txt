@@ -1,0 +1,63 @@
+Week 7 basic walkthrough
+
+Day 1
+
+Am
+Intro to the internet/requests/responses/api/servers/clients/Express
+
+!!! Server each task with a seperate branch !!!
+
+Build very basic express static server serving single route (/helloworld) and single index.html
+
+Task one - add another route( e.g. books) and x3 basic index.html pages (home, books, about) with basic/optional html
+
+
+Pm
+
+Reconstitue a html website from earlier in the course to be served on the same server on another router of the students choosing
+
+Day 2
+
+Routes with req/res - first send back some simple data on different routes to be viewed on browser
+
+e.g. get /books/listbooks
+
+Then, add a post request and send a body to route and manipulate it and send back with TC
+
+e.g. post books/addbook
+
+Then, set up Atlas Mongodb account and give template code for mongoose connection + install dependancies + template for book model
+
+Create mongoose model of book
+
+Add create route /function in code along
+
+THEN - go through example of system design for create. 
+
+Then show read system design and code along. 
+
+Task - complete update and delete with system designs given. 
+
+Create new model for movies (title, actor, genre) and use system design to make routes
+
+
+Day 5 (Friday)
+
+Adding React
+
+Create simple react app with 2 components -  
+
+
+For week 8
+
+Go through the concept of users and work out some feature/user stories for users (not diagrams)
+
+Think about data (username, password, email). 
+
+Task - design data and then build a user model/routes/functions to CRUD users
+
+—- Possible task until end of week — think of stretch goal
+
+
+
+ 
